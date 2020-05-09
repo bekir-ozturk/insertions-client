@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>Microsoft.Net.Insertions.Clients</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Images\AppIcon.png" />
+    <None Remove="Resources\Images\OpenFolder_16x.png" />
+    <None Remove="Resources\Images\OpenQueryView_16x.png" />
+    <None Remove="Resources\Images\OpenTopic_16x.png" />
+    <None Remove="Resources\Images\Run_16x.png" />
+    <None Remove="Resources\Images\Save_16x.png" />
+    <None Remove="Resources\Images\StatusHelp_16x.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InsertionsClient\InsertionsClient.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\AppIcon.png" />
+    <Resource Include="Resources\Images\OpenFolder_16x.png" />
+    <Resource Include="Resources\Images\OpenQueryView_16x.png" />
+    <Resource Include="Resources\Images\OpenTopic_16x.png" />
+    <Resource Include="Resources\Images\Run_16x.png" />
+    <Resource Include="Resources\Images\Save_16x.png" />
+    <Resource Include="Resources\Images\StatusHelp_16x.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\InputFiles\dotNetCoreVersions.props">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\InputFiles\ignored.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\InputFiles\manifest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\InputFiles\SampleInput.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+﻿{
+	"default.config": "C:\\Repos\\VS\\.corext\\Configs\\default.config",
+	"ignore.file": {
+		"ischosen": true,
+		"value": "C:\\GitHub\\insertions-client\\src\\InsertionsClientGui\\bin\\Debug\\netcoreapp3.1\\Resources\\InputFiles\\ignored.txt"
+	},
+	"ignoredefaultasms": false,
+	"manifest.json": "C:\\GitHub\\insertions-client\\src\\InsertionsClientGui\\bin\\Debug\\netcoreapp3.1\\Resources\\InputFiles\\manifest.json",
+	"nuget.pat": {
+		"ischosen": false,
+		"value": null
+	},
+	"propsdirectory": {
+		"ischosen": true,
+		"value": "C:\\GitHub\\insertions-client\\src\\InsertionsClientGui\\bin\\Debug\\netcoreapp3.1\\Resources\\InputFiles"
+	
+}
